@@ -1,2 +1,4 @@
 _misc/
 .idea/
+node_modules/
+dist/

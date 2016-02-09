@@ -4,7 +4,9 @@
   "description": "Simple Calculator",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-js": "./node_modules/.bin/minify ./index.js --output ./dist/index.js",
+    "build-css" : "./node_modules/.bin/minify ./index.css --output ./dist/index.css",
+    "build" : "npm run build-js && npm run build-css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/drinchev/sieben/issues"
   },
-  "homepage": "https://github.com/drinchev/sieben#readme"
+  "homepage": "https://github.com/drinchev/sieben#readme",
+  "devDependencies": {
+    "minifier": "^0.7.1"
+  }
 }
