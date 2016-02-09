@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Sieben</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/icons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/icons/manifest.json">
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Sieben">
+    <meta name="application-name" content="Sieben">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,100,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<div class="container">
+    <div class="screen">
+        <div class="screen--numbers" id="screen">9+761</div>
+    </div>
+    <div class="keyboard">
+        <button class="keyboard--button keyboard--button-small" data-operation="clear" id="clear">AC</button>
+        <button class="keyboard--button" data-operation="plusminus">
+            <svg width="15px" height="28px" viewBox="0 0 15 28" version="1.1">
+                <g id="plus-minus" stroke="none" stroke-width="1" fill="none"
+                   fill-rule="evenodd">
+                    <g transform="translate(-132.000000, -217.000000)" font-weight="260"
+                       font-family="Roboto" letter-spacing="-0.273134321" font-size="30"
+                       fill="#38404D">
+                        <g transform="translate(131.000000, 207.000000)">
+                            <text line-spacing="31">
+                                <tspan x="0" y="28">+</tspan>
+                            </text>
+                            <text line-spacing="21">
+                                <tspan x="4" y="46">-</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </button>
+        <button class="keyboard--button keyboard--button-small" data-operation="percent">%</button>
+        <button class="keyboard--button keyboard--button-special" data-operation="divide">
+            <svg width="26px" height="25px" viewBox="0 0 26 25" version="1.1">
+                <g id="divide" stroke="none" stroke-width="1" fill="none"
+                   fill-rule="evenodd">
+                    <ellipse fill="#FFFFFF" cx="12.2435897" cy="2.2195122" rx="2.24358974"
+                             ry="2.2195122"></ellipse>
+                    <ellipse fill="#FFFFFF" cx="12.2435897" cy="22.2195122"
+                             rx="2.24358974"
+                             ry="2.2195122"></ellipse>
+                    <path d="M2.88657986e-15,12 L24,12" stroke="#FFFFFF"
+                          stroke-width="1.92307692" stroke-linecap="round"></path>
+                </g>
+            </svg>
+        </button>
+        <button class="keyboard--button keyboard--number" data-digit="7">7</button>
+        <button class="keyboard--button keyboard--number" data-digit="8">8</button>
+        <button class="keyboard--button keyboard--number" data-digit="9">9</button>
+        <button class="keyboard--button keyboard--button-special" data-operation="multiply">
+            <svg width="26px" height="25px" viewBox="0 0 26 25" version="1.1">
+                <g id="multiply" stroke="none" stroke-width="1" fill="none"
+                   fill-rule="evenodd">
+                    <g stroke-linecap="round" stroke="#FFFFFF" stroke-width="2">
+                        <path d="M0.666666667,22.3333333 L23.8666485,0.293350552"></path>
+                        <path d="M0.666666667,22.3333333 L23.8666485,0.293350552"
+                              transform="translate(12.266658, 11.313342) scale(-1, 1) translate(-12.266658, -11.313342)"></path>
+                    </g>
+                </g>
+            </svg>
+        </button>
+        <button class="keyboard--button keyboard--number" data-digit="4">4</button>
+        <button class="keyboard--button keyboard--number" data-digit="5">5</button>
+        <button class="keyboard--button keyboard--number" data-digit="6">6</button>
+        <button class="keyboard--button keyboard--button-special" data-operation="minus">
+            <svg width="26px" height="2px" viewBox="0 0 26 2" version="1.1">
+                <g id="minus" stroke="none" stroke-width="1" fill="none"
+                   fill-rule="evenodd">
+                    <g stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"
+                       opacity="0.7">
+                        <path d="M0,1 L24,1"></path>
+                    </g>
+                </g>
+            </svg>
+        </button>
+        <button class="keyboard--button keyboard--number" data-digit="1">1</button>
+        <button class="keyboard--button keyboard--number" data-digit="2">2</button>
+        <button class="keyboard--button keyboard--number" data-digit="3">3</button>
+        <button class="keyboard--button keyboard--button-special" data-operation="plus">
+            <svg width="27px" height="26px" viewBox="0 0 27 26" version="1.1">
+                <g id="plus" stroke="none" stroke-width="1" fill="none"
+                   fill-rule="evenodd">
+                    <g stroke-linecap="round" stroke="#FFFFFF" stroke-width="2">
+                        <path d="M12.5,24 L12.5,0"></path>
+                        <path d="M0.5,12 L24.5,12"></path>
+                    </g>
+                </g>
+            </svg>
+        </button>
+        <button class="keyboard--button keyboard--number keyboard--button-last" data-digit="0">0</button>
+        <button class="keyboard--button keyboard--number keyboard--button-invisible keyboard--button-last" data-digit="0">0</button>
+        <button class="keyboard--button keyboard--button-last" data-operation="dot">,</button>
+        <button class="keyboard--button keyboard--button-special keyboard--button-last" data-operation="result">
+            <svg width="27px" height="12px" viewBox="0 0 27 12" version="1.1">
+                <g id="equals" stroke="none" stroke-width="1" fill="none"
+                   fill-rule="evenodd">
+                    <g stroke-linecap="round" stroke="#FFFFFF" stroke-width="2">
+                        <path d="M0.5,1 L24.5,1"></path>
+                        <path d="M0.5,11 L24.5,11"></path>
+                    </g>
+                </g>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "sieben",
+  "version": "0.0.1",
+  "description": "Simple Calculator",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/drinchev/sieben.git"
+  },
+  "author": "Ivan Drinchev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drinchev/sieben/issues"
+  },
+  "homepage": "https://github.com/drinchev/sieben#readme"
+}
